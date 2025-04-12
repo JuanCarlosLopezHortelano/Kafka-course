@@ -26,7 +26,7 @@ public class ConsumerDemo {
 
         //create Producer Properties
         Properties props = new Properties();
-        props.setProperty("bootstrap.servers", "172.24.229.184:9092");
+        props.setProperty("bootstrap.servers", "localhost:9092");
 
         String groupId = "my-java-application";
         String topic = "topico_test";
